@@ -13,10 +13,16 @@ const Header = () => {
 				</Link>
 				<ul className='nav__menu'>
 					<li>
-						<Link to='/profile'>Ernest Achiever</Link>
-						<Link to='/create'>Create Post</Link>
-						<Link to='/authors'>Authors</Link>
-						<Link to='/logout'>Logout</Link>
+						<Link to='/profile'>Ernest Achiever </Link>
+					</li>
+					<li>
+						<Link to='/create'> Create Post </Link>
+					</li>
+					<li>
+						<Link to='/authors'> Authors </Link>
+					</li>
+					<li>
+						<Link to='/logout'> Logout </Link>
 					</li>
 				</ul>
 				<button className='nav__toggle-btn'>
